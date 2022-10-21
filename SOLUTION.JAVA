@@ -48,6 +48,7 @@ public class LongestCompoundWord {
 		//int sec_maxLength = 0;		// second longest compound word length		
 		String longest = "";		// longest compound word
 		String sec_longest = "";	// second longest compound word
+		
 
 		while (!queue.isEmpty()) {
 			p = queue.removeFirst();
